@@ -56,6 +56,10 @@ class Html5 {
 		$link = sprintf(self::LINK.PHP_EOL, $l);
                 return $link;
 	}
+        
+	public function prtLink($l) {
+		printf(self::LINK.PHP_EOL, $l);
+	}        
 	
 	public function getScript($s) {
 		$script = sprintf(self::SCRIPT.PHP_EOL, $s);
