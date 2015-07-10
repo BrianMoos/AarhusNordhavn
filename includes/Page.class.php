@@ -18,13 +18,13 @@ class Page extends Html5 {
 		$this->pageName = pathinfo($_SERVER['PHP_SELF']);
 		$this->pageStyle = sprintf("	<style> #%s {color: #0bb9ff;}</style>%s", $this->pageName['filename'], PHP_EOL);
 		$this->top = parent::getTop();
+                $this->top .= parent::getLink($this::COMMONCSS);
+                $this->top .= parent::getScript($this::COMMONJS);
 		$this->top .= $this->pageStyle;
-                $this->top .= "         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\"/>".PHP_EOL;
+                $this->top .= "         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"./favicon.ico\"/>".PHP_EOL;
+                
 		return $this->top;
 	}
-        
-        
-
         
         public function addToIncludePath($path){
             $newIncludePath = sprintf("%s%s%s", get_include_path(), PATH_SEPARATOR, $path);

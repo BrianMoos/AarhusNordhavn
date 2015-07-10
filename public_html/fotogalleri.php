@@ -4,9 +4,6 @@
 	$doc = new Page("Fotogalleri");
 		
 	print($doc->getTop());
-	
-        $doc->prtLink($doc::COMMONCSS);
-        $doc->prtScript($doc::COMMONJS);
         $doc->prtScript($doc::GALLERIJS);
 	print($doc->getNeck());
 	Require_once $doc::MENU; 

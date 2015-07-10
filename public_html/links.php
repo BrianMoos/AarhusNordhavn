@@ -5,11 +5,8 @@
 	$doc  = new Page("Links");
 	
 	print($doc->getTop());
-        $doc->prtLink($doc::COMMONCSS);
-        $doc->prtScript($doc::COMMONJS);
         $doc->prtScript($doc::MAILJS);
-	print($doc->getNeck());
-	
+	print($doc->getNeck());	
 	require_once $doc::MENU;
 	
 

@@ -5,11 +5,8 @@
 	$doc  = new Page("Pladser");
 	
 	print($doc->getTop());
-        $doc->prtLink($doc::COMMONCSS);
-        $doc->prtScript($doc::COMMONJS);
         $doc->prtScript($doc::MAILJS);
 	print($doc->getNeck());
-	
 	require_once $doc::MENU;
 	
 

@@ -52,13 +52,19 @@ class Html5 {
             print(self::NOINDEX.PHP_EOL);
         }
 	
-	public function prtLink($l) {
-		printf(self::LINK.PHP_EOL, $l);
+	public function getLink($l) {
+		$link = sprintf(self::LINK.PHP_EOL, $l);
+                return $link;
 	}
 	
+	public function getScript($s) {
+		$script = sprintf(self::SCRIPT.PHP_EOL, $s);
+                return $script;
+	}
+        
 	public function prtScript($s) {
 		printf(self::SCRIPT.PHP_EOL, $s);
-	}
+	}        
 	
 }
 
