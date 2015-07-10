@@ -1,0 +1,5 @@
+vindstyrke og retning
+http://ifm.fcoo.dk//asp/oceanIFrame.asp?charttype=8&user1=DEFAULT&user2=DEFAULT&user3=DEFAULT&time=0&animation=4&speed=1&legend=1&header=1&lang=DK&id=SOUND_BELT&paramId1=Wind&paramId2=WDir&paramId3=NONE&dummy=1&aakdom=http://www.aarhusnordhavn.dk
+
+Aktuel vandstand
+http://ifm.fcoo.dk//asp/oceanIFrame.asp?charttype=2&mode=0&type=1&color=1&width=200&header=1&lang=DK&id=AARHUS&user=WARNING_LOW_SEALEVEL&paramId=SeaLvl&aakdom=http://www.aarhusnordhavn.dk"
