@@ -13,7 +13,7 @@
 	
 
 ?>
-		<img src="images/links_top.png" alt="" />
+		<img src="images/links_top.png" alt="" class="center-block" />
 		<h1>Links</h1>
 		<section class="links">
 			<h2>Andre sejlklubber</h2>
@@ -79,5 +79,5 @@
 			</li>				
 			</ul>
 		</section>
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

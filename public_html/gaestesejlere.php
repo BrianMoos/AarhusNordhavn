@@ -15,7 +15,7 @@
 ?>
 
 
-		<img src="images/gaestesejlere_top.png" alt="" />
+		<img src="images/gaestesejlere_top.png" alt="" class="center-block" />
 		<header>
 			<h1>G&aelig;stesejlere</h1>
 		</header>
@@ -75,5 +75,5 @@
 				</p>
 			</article>
 		</section>
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

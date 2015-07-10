@@ -13,7 +13,7 @@
 	
 ?>
 
-			<img src="images/index_top.png" alt="" />
+<img src="images/index_top.png" alt="" class="center-block" />
 		<header>
 			<h1>Velkommen til sejlklubben Aarhus Nordhavn</h1>
 		</header>
@@ -44,5 +44,5 @@
 
 			<noscript>Email adressen kr&aelig;ver javascript</noscript><br />
 		</article>
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

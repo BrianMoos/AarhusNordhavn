@@ -13,7 +13,7 @@
 	
 
 ?>
-		<img src="images/sejlklubben_top.png" alt="" />
+		<img src="images/sejlklubben_top.png" alt="" class="center-block" />
 		<header>
 			<h1>Sejlklubben Aarhus Nordhavn</h1>
 		</header>
@@ -100,5 +100,5 @@
 					</li>
 				</ul>
 			</section>
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

@@ -1,12 +1,12 @@
 
 body {
-	width: 900px;
 	font-family: Verdana, "Lucida Grande", Arial, Geneva, sans-serif;
 	background-color: #fefefe;
 	color: #060606;
 	font-size: 12px;
 	line-height: 1.5;
 	overflow-y: scroll;
+        padding: 15px;
 }
 
 a {
@@ -29,6 +29,7 @@ section h2 {
 section {
 	padding: 0 10px;
 }
+
 
 nav a {
 	font-weight: 600;
@@ -114,7 +115,7 @@ nav ul li {
 }
 
 #navline {
-	width: 900px;
+	width: 600px;
 }
 
 #klubben {

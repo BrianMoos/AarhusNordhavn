@@ -13,7 +13,7 @@
 	
 
 ?>
-<div id="topimg"><img src="images/fotogalleri_top.png" alt="" /></div>
+<div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block" /></div>
 		<header>
                     <h1>Ans&oslash;gning om pladser</h1>
 		</header>

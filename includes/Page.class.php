@@ -33,11 +33,18 @@ class Page extends Html5 {
 	}
         
         public function getNeck() {
-            parent::getNeck();
+            $this->neck = parent::getNeck();
+            $this->neck .= '<div class="container">';
+            $this->neck .= '<div class="row">';
+            $this->neck .= '<div class="col-md-10 col-md-offset-1">';
+            return $this->neck;
+            
         }
 
-                public function getFoot() {
-            parent::getFoot();
+        public function getFoot() {
+            $this->foot = "</div></div></div>";
+            $this->foot .= parent::getFoot();
+            return $this->foot;
         }
         
         public function addToIncludePath($path){

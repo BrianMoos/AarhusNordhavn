@@ -13,7 +13,7 @@
 	
 
 ?>
-		<img src="images/havnen_top.png" alt="" />
+		<img src="images/havnen_top.png" alt="" class="center-block" />
 		<header>
 			<h1>Havnen</h1>
 		</header>
@@ -34,5 +34,5 @@
 "http://ifm.fcoo.dk//asp/oceanMeter.asp?charttype=2&amp;mode=0&amp;type=1&amp;color=1&amp;width=200&amp;header=1&amp;lang=DK&amp;id=AARHUS&amp;user=WARNING_LOW_SEALEVEL&amp;paramId=SeaLvl&amp;aakdom=http://www.aarhusnordhavn.dk" alt="Aktuel vandstand" title="Aktuel vandstand" />
 		</div>
 		</section>
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

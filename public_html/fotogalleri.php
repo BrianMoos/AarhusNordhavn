@@ -9,7 +9,7 @@
 	Require_once $doc::MENU; 
 		
 ?>
-<div id="topimg"><img src="images/fotogalleri_top.png" alt="" /></div>
+<div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block" /></div>
 		<header>
 			<h1>Fotogalleri</h1>
 		</header>
@@ -19,5 +19,5 @@
 		</section>
 <noscript>Fotogalleriet kr&aelig;ver javascript</noscript>
 			
-	</body>
-</html>
+<?php
+    print($doc->getFoot());

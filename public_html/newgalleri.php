@@ -12,3 +12,7 @@
 		
 ?>
 
+
+
+<?php
+    print($doc->getFoot());
