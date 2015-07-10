@@ -5,8 +5,8 @@ class Html5 {
 	const HTML      = '<html lang="%s" xml:lang="%s">';
 	const CHARSET   = '<meta charset="utf-8" />';
 	const VIEWPORT  = '<meta name="viewport" content="width=device-width" />';
-        const NOINDEX  = '<meta name="robots" content="nofollow, noindex" />';
-	const NECK      = "    </head>\n    <body>\n";
+        const NOINDEX   = '<meta name="robots" content="nofollow, noindex" />';
+	const NECK      = '    </head>   <body class="center-block">';
 	const FOOT      = "    </body>\n</html>\n";
 	const LINK      = '        <link rel="stylesheet" href="%s" />';
 	const SCRIPT    = '        <script src="%s"></script>';

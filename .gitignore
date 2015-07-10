@@ -1,4 +1,6 @@
 README.md
-nbproject/*
+/public_html/nbproject/private/private.xml
 web.config
 phpdebug.php
+/public_html/nbproject/
+public_html/nbproject/private/private.xml

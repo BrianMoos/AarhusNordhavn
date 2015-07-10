@@ -1,6 +1,6 @@
 		<nav>
 
-			<ul>
+			<ul class="pull-right">
 				<li>
 					<a id="index" href="./index.php">Aarhus Nordhavn</a>
 				</li>

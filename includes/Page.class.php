@@ -32,6 +32,14 @@ class Page extends Html5 {
 		return $this->top;
 	}
         
+        public function getNeck() {
+            parent::getNeck();
+        }
+
+                public function getFoot() {
+            parent::getFoot();
+        }
+        
         public function addToIncludePath($path){
             $newIncludePath = sprintf("%s%s%s", get_include_path(), PATH_SEPARATOR, $path);
             return set_include_path($newIncludePath);

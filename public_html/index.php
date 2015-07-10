@@ -6,6 +6,8 @@
 	
 	print($doc->getTop());
         $doc->prtScript($doc::MAILJS);
+        $doc->prtScript($doc::JQUERY);
+        $doc->prtScript($doc::BOOTSTRAPJS);
 	print($doc->getNeck());
 	require_once $doc::MENU;
 	
@@ -32,7 +34,7 @@
 				andre virksomheder.
 			</p>
 			<p>
-				Pladserne ligger mellem den gamle auktionhal og ophalerbeddingen.Der er som regel ingen problemer med at 
+				Pladserne ligger mellem den gamle auktionshal og ophalerbeddingen.Der er som regel ingen problemer med at 
 				f&aring; plads, selv i højs&aelig;sonen.
 			</p>
 			<p>
