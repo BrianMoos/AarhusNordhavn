@@ -3,11 +3,11 @@
 require_once 'Html5.class.php';
 class Page extends Html5 {
 	
-	const MAILJS = "/script/email.js";
-	const COMMONJS = "/script/common.js";
-	const GALLERIJS = "/script/galleri.js";
-	const COMMONCSS = "/style/common.css";
-        const FORMSCSS = "/style/forms.css";
+	const MAILJS = "./script/email.js";
+	const COMMONJS = "./script/common.js";
+	const GALLERIJS = "./script/galleri.js";
+	const COMMONCSS = "./style/common.css";
+        const FORMSCSS = "./style/forms.css";
         const MENU = "menu.php";
 
 	public function __construct($title, $lang = 'da') {
