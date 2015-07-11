@@ -6,8 +6,6 @@
 	
 	print($doc->getTop());
         $doc->prtScript($doc::MAILJS);
-        $doc->prtScript($doc::JQUERY);
-        $doc->prtScript($doc::BOOTSTRAPJS);        
 	print($doc->getNeck());
 	require_once $doc::MENU;
 	
