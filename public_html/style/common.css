@@ -23,7 +23,7 @@ section h1 {
 
 section h2 {
 	text-align: left;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 section {
@@ -109,10 +109,6 @@ nav ul li {
 	margin-right: auto;
 }
 
-.links {
-	float: left;
-	width: 45%;
-}
 
 #navline {
 	width: 600px;
