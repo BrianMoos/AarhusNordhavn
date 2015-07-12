@@ -9,7 +9,15 @@
 	require_once $doc::MENU;
 	
 ?>
-
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#index").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
     <img src="images/index_top.png" alt="" class="center-block" />
         <header>
             <h1>Velkommen til sejlklubben Aarhus Nordhavn</h1>

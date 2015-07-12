@@ -10,7 +10,15 @@
 	
 
 ?>
-
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#gaestesejlere").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 
         <img src="images/gaestesejlere_top.png" alt="" class="center-block" />
         <header>

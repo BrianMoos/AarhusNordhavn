@@ -105,6 +105,12 @@ nav ul li {
 	margin-right: auto;
 }
 
+#navbar-image {
+    padding: 0px;
+    margin: 0px;
+    max-width: 150px;
+}
+
 
 #navline {
 	width: 600px;

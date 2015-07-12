@@ -10,6 +10,15 @@
 	
 
 ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#havnen").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
         <img src="images/havnen_top.png" alt="" class="center-block" />
         <header>
                 <h1>Havnen</h1>

@@ -10,6 +10,15 @@
 	
 
 ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#links").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
     <img src="images/links_top.png" alt="" class="center-block" />
     <h1>Links</h1>
     <div class="row">

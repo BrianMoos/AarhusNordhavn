@@ -10,6 +10,15 @@
 	
 
 ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#pladser").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 <div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block" /></div>
     <header>
         <h1>Ans&oslash;gning om pladser</h1>

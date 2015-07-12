@@ -9,6 +9,15 @@
 	Require_once $doc::MENU; 
 		
 ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#fotogalleri").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 <div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block" /></div>
         <header>
             <h1>Fotogalleri</h1>

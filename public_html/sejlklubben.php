@@ -10,6 +10,15 @@
 	
 
 ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#sejlklubben").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script>   
         <img src="images/sejlklubben_top.png" alt="" class="center-block" />
         <header>
                 <h1>Sejlklubben Aarhus Nordhavn</h1>
