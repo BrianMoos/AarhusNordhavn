@@ -5,7 +5,6 @@
 	$doc  = new Page("G&aelig;stesejlere");
 	
 	print($doc->getTop());
-        $doc->prtScript($doc::MAILJS);
 	print($doc->getNeck());	
 	require_once $doc::MENU;
 	

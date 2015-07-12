@@ -64,11 +64,7 @@ nav ul li {
 	margin: 0;
 }
 
-.clearb {
-	clear:both;
-}
-
-.thumbs {
+.thumb {
 	margin: 0;
 	padding: 0;
 }
@@ -79,7 +75,7 @@ nav ul li {
 	margin: 5px;
 }
 
-.thumbs li {
+.thumb li {
 	margin: 0;
 	padding: 0;
 }

@@ -5,7 +5,6 @@
 	$doc  = new Page("Sejlklubben");
 	
 	print($doc->getTop());
-        $doc->prtScript($doc::MAILJS);
 	print($doc->getNeck());	
 	require_once $doc::MENU;
 	
@@ -24,7 +23,7 @@
                         <strong>Fart&oslash;jsinspekt&oslash;r</strong> Michael Gr&oslash;nne 
                         <script>
                         /*<![CDATA[*/
-                                EmailMichael();
+                                email("Michael");
                         /*]]>*/
                         </script>                        
                     </p>
@@ -32,7 +31,7 @@
                         <strong>Elansvarlig</strong> Michael Gr&oslash;nne
                         <script>
                         /*<![CDATA[*/
-                                EmailMichael();
+                                email("Michael");
                         /*]]>*/
                         </script>                          
                     </p>
@@ -42,7 +41,7 @@
                             <strong>Formand</strong> Brian Uller
                             <script>
                             /*<![CDATA[*/
-                                    EmailUller();
+                                    email("Uller");
                             /*]]>*/
                             </script>
                         </li>
@@ -50,7 +49,7 @@
                             <strong>N&aelig;stformand</strong> Erik Bjerre
                             <script>
                             /*<![CDATA[*/
-                                    EmailErik();
+                                    email("Erik");
                             /*]]>*/
                             </script>						
                         </li>				
@@ -58,7 +57,7 @@
                             <strong>Kasserer</strong> Klaus Gelting 
                             <script>
                             /*<![CDATA[*/
-                                    EmailKlaus();
+                                    email("Klaus");
                             /*]]>*/
                             </script>						
                         </li>
@@ -66,7 +65,7 @@
                             Michael Gr&oslash;nne
                             <script>
                                 /*<![CDATA[*/
-                                        EmailMichael();
+                                        email("Michael");
                                 /*]]>*/                                                
                             </script>
                         </li>
@@ -74,7 +73,7 @@
                             Kim Christensen
                             <script>
                                 /*<![CDATA[*/
-                                        EmailKim();
+                                        email("Kim");
                                 /*]]>*/                                                
                             </script>
                         </li>                                        

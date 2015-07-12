@@ -5,7 +5,6 @@
 	$doc  = new Page("Pladser");
 	
 	print($doc->getTop());
-        $doc->prtScript($doc::MAILJS);
 	print($doc->getNeck());
 	require_once $doc::MENU;
 	
@@ -31,7 +30,7 @@
         <li>Send det til fartøjsinspektør Michael Gr&oslash;nne
                             <script>
                             /*<![CDATA[*/
-                                    EmailMichael();
+                                    email("Michael");
                             /*]]>*/
                             </script>             
         </li>
