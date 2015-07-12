@@ -40,6 +40,5 @@
         addImgHandler(data);
     }
     
-    
 }(jQuery));
 

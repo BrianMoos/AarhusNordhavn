@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-6">
             <section class="links">
-                    <h2>Andre sejlklubber</h2>
+                <h2>Andre sejlklubber</h2>
                 <ul class="genericlist">
                     <li>
                         Aarhus Lystb&aring;dehavn: <a  title="http://www.aarhuslystbaadehavn.dk/" href="http://www.aarhuslystbaadehavn.dk/" >www.aarhuslystbaadehavn.dk</a>
@@ -39,8 +39,8 @@
                 <h2>Kort over om&aring;det</h2>
                 <ul class="genericlist">
                     <li>
-                            Kort over omr&aring;det ved Aarhus Nordhavn: 
-                            <a title="findvej.dk" href="http://findvej.dk/pakkerivej,8000" target="Pakkerivej 8000 Aarhus C">findvej.dk</a>
+                        Kort over omr&aring;det ved Aarhus Nordhavn: 
+                        <a title="findvej.dk" href="http://findvej.dk/pakkerivej,8000" target="Pakkerivej 8000 Aarhus C">findvej.dk</a>
                     </li>
                 </ul>			
             </section>
@@ -50,27 +50,27 @@
                 <h2>B&aring;dudstyr og -reparationer: </h2>
                 <ul class="genericlist">
                     <li>
-                            AFI Marine: 
-                            <a title="http://www.afi.dk/" href="http://www.afi.dk/">www.afi.dk</a>
+                        AFI Marine: 
+                        <a title="http://www.afi.dk/" href="http://www.afi.dk/">www.afi.dk</a>
                     </li>
                     <li>
-                            Aarhus b&aring;dservice: 
-                            <a title="http://www.aarhusbaadservice.dk/" href="http://www.aarhusbaadservice.dk/">www.aarhusbaadservice.dk</a>
+                        Aarhus b&aring;dservice: 
+                        <a title="http://www.aarhusbaadservice.dk/" href="http://www.aarhusbaadservice.dk/">www.aarhusbaadservice.dk</a>
                     </li>
                 </ul>
                 <h2>L&aelig;s mere om Aarhus</h2>
                 <ul class="genericlist">
                     <li>
-                            Visit Aarhus: 
-                            <a title="http://www.visitaarhus.dk/" href="http://www.visitaarhus.dk/">www.visitaarhus.dk</a>
+                        Visit Aarhus: 
+                        <a title="http://www.visitaarhus.dk/" href="http://www.visitaarhus.dk/">www.visitaarhus.dk</a>
                     </li>
                     <li>
-                            Aarhus kommune: 
-                            <a title="http://www.aarhus.dk/" href="http://www.aarhus.dk/">www.aarhus.dk</a>
+                        Aarhus kommune: 
+                        <a title="http://www.aarhus.dk/" href="http://www.aarhus.dk/">www.aarhus.dk</a>
                     </li>
                     <li>
-                            &Aring;rhus Trafik Havn: 
-                            <a  title="http://www.aarhushavn.dk/" href="http://www.aarhushavn.dk/" >www.aarhushavn.dk</a>
+                        &Aring;rhus Trafik Havn: 
+                        <a  title="http://www.aarhushavn.dk/" href="http://www.aarhushavn.dk/" >www.aarhushavn.dk</a>
                     </li>				
                 </ul>
             </section>

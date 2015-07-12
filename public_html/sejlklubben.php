@@ -83,19 +83,19 @@
             </div>
             <div class="col-md-6">
                 <section id="stander">
-                        <h2>Sejlklubbens stander</h2>
-                        <img src="images/aanstander.png" alt="Aarhus Nordhavns stander" title="Aarhus Nordhavns stander" />
-                        <ul class="genericlist">
-                                <li>
-                                        <a href="files/vedtaegter.pdf">Sejlklubbens vedt&aelig;gter</a>
-                                </li>
-                                <li>
-                                        <a href="files/formandens_Aarsberetning.pdf">Formandens beretning</a>
-                                </li>
-                                <li>
-                                    <a href="files/Referat2014.pdf">Referat generalforsamling 2014</a>
-                                </li>
-                        </ul>
+                    <h2>Sejlklubbens stander</h2>
+                    <img src="images/aanstander.png" alt="Aarhus Nordhavns stander" title="Aarhus Nordhavns stander" />
+                    <ul class="genericlist">
+                        <li>
+                            <a href="files/vedtaegter.pdf">Sejlklubbens vedt&aelig;gter</a>
+                        </li>
+                        <li>
+                            <a href="files/formandens_Aarsberetning.pdf">Formandens beretning</a>
+                        </li>
+                        <li>
+                            <a href="files/Referat2014.pdf">Referat generalforsamling 2014</a>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </div>
