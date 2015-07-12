@@ -23,7 +23,7 @@
             <h1>Fotogalleri</h1>
         </header>
         <section>
-            <button id="back" type="button" class="btn btn-default">Tilbage til galleri</button>
+            <button id="back" type="button" class="btn btn-primary">Tilbage til galleri</button>
             <div id="galleri"></div>
             <div id="image" ></div>
         </section>

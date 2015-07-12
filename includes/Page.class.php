@@ -19,8 +19,8 @@ class Page extends Html5 {
 	
 	public function getTop() {
 		$this->top = parent::getTop();
-                $this->top .= parent::getLink($this::COMMONCSS);
                 $this->top .= parent::getLink($this::BOOTSTRAPCSS);
+                $this->top .= parent::getLink($this::COMMONCSS);
                 $this->top .= parent::getScript($this::COMMONJS);
                 $this->top .= parent::getScript($this::JQUERY);
                 $this->top .= parent::getScript($this::BOOTSTRAPJS);
