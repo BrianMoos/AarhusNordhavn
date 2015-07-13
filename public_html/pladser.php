@@ -5,16 +5,24 @@
 	$doc  = new Page("Pladser");
 	
 	print($doc->getTop());
-        $doc->prtScript($doc::MAILJS);
 	print($doc->getNeck());
 	require_once $doc::MENU;
 	
 
 ?>
-<div id="topimg"><img src="images/fotogalleri_top.png" alt="" /></div>
-		<header>
-                    <h1>Ans&oslash;gning om pladser</h1>
-		</header>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#pladser").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
+<div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block" /></div>
+    <header>
+        <h1>Ans&oslash;gning om pladser</h1>
+    </header>
 <section>
     <p>
         <strong> HUSK at ved h&aelig;fte et billede af b&aring;den sammen med pdf, dette er vigtigt</strong>
@@ -29,11 +37,11 @@
         <li>Hent vores skema <a href="files/AANAnsoegninomplads.pdf" target="AANAnsoegningomplads"> her</a> og gem det p&aring; computeren, derefter udfyldes det</li>
         <li>Opret e-mail og vedh&aelig;ft pdf og billede af b&aring;d</li>
         <li>Send det til fartøjsinspektør Michael Gr&oslash;nne
-                            <script>
-                            /*<![CDATA[*/
-                                    EmailMichael();
-                            /*]]>*/
-                            </script>             
+            <script>
+            /*<![CDATA[*/
+                    email("Michael");
+            /*]]>*/
+            </script>             
         </li>
         <li>Vi vender tilbage hurtigst mulig</li>
     </ul>
@@ -45,4 +53,4 @@
 </section>
 
 <?php
-print($doc->getFoot());
+    print($doc->getFoot());

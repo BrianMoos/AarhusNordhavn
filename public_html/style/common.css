@@ -1,13 +1,12 @@
 
 body {
-	width: 900px;
-	margin: 0 auto;
 	font-family: Verdana, "Lucida Grande", Arial, Geneva, sans-serif;
 	background-color: #fefefe;
 	color: #060606;
 	font-size: 12px;
 	line-height: 1.5;
 	overflow-y: scroll;
+        padding: 15px;
 }
 
 a {
@@ -24,12 +23,13 @@ section h1 {
 
 section h2 {
 	text-align: left;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 section {
 	padding: 0 10px;
 }
+
 
 nav a {
 	font-weight: 600;
@@ -47,7 +47,6 @@ nav img {
 }
 
 nav ul {
-	float:right;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -65,22 +64,18 @@ nav ul li {
 	margin: 0;
 }
 
-.clearb {
-	clear:both;
-}
-
-.thumbs {
+.thumb {
 	margin: 0;
 	padding: 0;
 }
 
 
-.thumbs img {
+.thumb img {
 	padding: 15px;
 	margin: 5px;
 }
 
-.thumbs li {
+.thumb li {
 	margin: 0;
 	padding: 0;
 }
@@ -110,25 +105,17 @@ nav ul li {
 	margin-right: auto;
 }
 
-.links {
-	float: left;
-	width: 45%;
+#navbar-image {
+    padding: 0px;
+    margin: 0px;
+    max-width: 150px;
 }
+
 
 #navline {
-	width: 900px;
+	width: 600px;
 }
 
-#klubben {
-	width: 45%;
-	float: left;
-	margin: 0;
-}
-
-#stander {
-	float: left;
-	margin: 0 10px;
-}
 
 #gallerilist {
 	list-style: none;
