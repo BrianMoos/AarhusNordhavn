@@ -21,9 +21,9 @@ class Page extends Html5 {
 		$this->top = parent::getTop();
                 $this->top .= parent::getLink($this::BOOTSTRAPCSS);
                 $this->top .= parent::getLink($this::COMMONCSS);
-                $this->top .= parent::getScript($this::COMMONJS);
                 $this->top .= parent::getScript($this::JQUERY);
                 $this->top .= parent::getScript($this::BOOTSTRAPJS);
+                $this->top .= parent::getScript($this::COMMONJS);
                 $this->top .= "         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"./favicon.ico\"/>".PHP_EOL;
                 
 		return $this->top;
