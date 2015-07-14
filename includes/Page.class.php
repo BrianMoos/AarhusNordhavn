@@ -3,7 +3,6 @@
 require_once 'Html5.class.php';
 class Page extends Html5 {
 	
-	const MAILJS = "./script/email.js";
 	const COMMONJS = "./script/common.js";
 	const GALLERIJS = "./script/galleri.js";
         const JQUERY = "./script/jquery-2.1.4.min.js";
