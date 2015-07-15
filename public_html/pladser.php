@@ -10,15 +10,7 @@
 	
 
 ?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#pladser").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script> 
+
 <div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block img-responsive" /></div>
     <header>
         <h1>Ans&oslash;gning om pladser</h1>
@@ -36,12 +28,7 @@
         </li>
         <li>Hent vores skema <a href="files/AANAnsoegninomplads.pdf" target="AANAnsoegningomplads"> her</a> og gem det p&aring; computeren, derefter udfyldes det</li>
         <li>Opret e-mail og vedh&aelig;ft pdf og billede af b&aring;d</li>
-        <li>Send det til fartøjsinspektør Michael Gr&oslash;nne
-            <script>
-            /*<![CDATA[*/
-                    email("Michael");
-            /*]]>*/
-            </script>             
+        <li>Send det til fartøjsinspektør Michael Gr&oslash;nne <span  class="mail-michael"></span>          
         </li>
         <li>Vi vender tilbage hurtigst mulig</li>
     </ul>
@@ -51,6 +38,15 @@
         Kontakt Michael Gr&oslash;nne
     </p>
 </section>
-
+<?php $doc->prtCommonScripts();?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#pladser").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 <?php
     print($doc->getFoot());

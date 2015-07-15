@@ -9,15 +9,7 @@
 	require_once $doc::MENU;
 	
 ?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#index").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script> 
+
     <img src="images/index_top.png" alt="" class="center-block img-responsive" />
         <header>
             <h1>Velkommen til sejlklubben Aarhus Nordhavn</h1>
@@ -49,5 +41,15 @@
 
             <noscript>Email adressen kr&aelig;ver javascript</noscript><br />
         </article>
+    <?php $doc->prtCommonScripts();?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#index").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script>     
 <?php
     print($doc->getFoot());

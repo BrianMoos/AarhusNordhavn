@@ -10,15 +10,6 @@
 	
 
 ?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#gaestesejlere").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script> 
 
         <img src="images/gaestesejlere_top.png" alt="" class="center-block img-responsive" />
         <header>
@@ -78,5 +69,15 @@
                 </p>
             </article>
         </section>
+    <?php $doc->prtCommonScripts();?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#gaestesejlere").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script>         
 <?php
     print($doc->getFoot());

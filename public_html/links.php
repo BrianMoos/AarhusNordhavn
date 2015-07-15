@@ -10,15 +10,6 @@
 	
 
 ?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#links").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script> 
     <img src="images/links_top.png" alt="" class="center-block img-responsive" />
     <h1>Links</h1>
     <div class="row">
@@ -85,6 +76,15 @@
             </section>
         </div>
     </div>
-
+    <?php $doc->prtCommonScripts();?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#links").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 <?php
     print($doc->getFoot());

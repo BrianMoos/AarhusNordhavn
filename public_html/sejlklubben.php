@@ -9,16 +9,7 @@
 	require_once $doc::MENU;
 	
 
-?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#sejlklubben").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script>   
+?> 
         <img src="images/sejlklubben_top.png" alt="" class="center-block img-responsive" />
         <header>
                 <h1>Sejlklubben Aarhus Nordhavn</h1>
@@ -29,62 +20,27 @@
                     <h2>Kontakter</h2>
                         <strong>Havnefoged</strong>    Brian Uller Tlf. 41 82 66 00
                     <p>
-                        <strong>Fart&oslash;jsinspekt&oslash;r</strong> Michael Gr&oslash;nne 
-                        <script>
-                        /*<![CDATA[*/
-                                email("Michael");
-                        /*]]>*/
-                        </script>                        
+                        <strong>Fart&oslash;jsinspekt&oslash;r</strong> Michael Gr&oslash;nne <span class="mail-michael"></span>                      
                     </p>
                     <p>
-                        <strong>Elansvarlig</strong> Michael Gr&oslash;nne
-                        <script>
-                        /*<![CDATA[*/
-                                email("Michael");
-                        /*]]>*/
-                        </script>                          
+                        <strong>Elansvarlig</strong> Michael Gr&oslash;nne                       
                     </p>
                     <h2>Bestyrelse</h2>
                     <ul class="genericlist">
                         <li>
-                            <strong>Formand</strong> Brian Uller
-                            <script>
-                            /*<![CDATA[*/
-                                    email("Uller");
-                            /*]]>*/
-                            </script>
+                            <strong>Formand</strong> Brian Uller <span class="mail-uller"></span>
                         </li>
                         <li>
-                            <strong>N&aelig;stformand</strong> Erik Bjerre
-                            <script>
-                            /*<![CDATA[*/
-                                    email("Erik");
-                            /*]]>*/
-                            </script>						
+                            <strong>N&aelig;stformand</strong> Erik Bjerre <span class="mail-erik"></span>					
                         </li>				
                         <li>
-                            <strong>Kasserer</strong> Klaus Gelting 
-                            <script>
-                            /*<![CDATA[*/
-                                    email("Klaus");
-                            /*]]>*/
-                            </script>						
+                            <strong>Kasserer</strong> Klaus Gelting <span class="mail-klaus"></span>						
                         </li>
                         <li>
-                            Michael Gr&oslash;nne
-                            <script>
-                                /*<![CDATA[*/
-                                        email("Michael");
-                                /*]]>*/                                                
-                            </script>
+                            Michael Gr&oslash;nne <span class="mail-michael"></span>
                         </li>
                         <li>
-                            Kim Christensen
-                            <script>
-                                /*<![CDATA[*/
-                                        email("Kim");
-                                /*]]>*/                                                
-                            </script>
+                            Kim Christensen <span class="mail-kim"></span>
                         </li>                                        
                     </ul>
                     <noscript>Email adressen kr&aelig;ver javascript</noscript><br />
@@ -108,5 +64,15 @@
                 </section>
             </div>
         </div>
+        <?php $doc->prtCommonScripts();?>
+        <script>
+            /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#sejlklubben").addClass("active"); 
+                });
+            }(jQuery)); 
+            /*]]>*/
+        </script>
 <?php
     print($doc->getFoot());

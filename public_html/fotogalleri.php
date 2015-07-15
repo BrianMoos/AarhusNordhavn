@@ -4,20 +4,11 @@
 	$doc = new Page("Fotogalleri");
 		
 	print($doc->getTop());
-        $doc->prtScript($doc::GALLERIJS);
 	print($doc->getNeck());
 	Require_once $doc::MENU; 
 		
 ?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#fotogalleri").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script> 
+
 <div id="topimg"><img src="images/fotogalleri_top.png" alt="" class="center-block img-responsive" /></div>
         <header>
             <h1>Fotogalleri</h1>
@@ -28,7 +19,18 @@
             <div id="image"></div>
         </section>
 <noscript>Fotogalleriet kr&aelig;ver javascript</noscript>
-
-
+<?php
+    $doc->prtCommonScripts();
+    $doc->prtScript($doc::GALLERIJS);
+    ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#fotogalleri").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script> 
 <?php
     print($doc->getFoot());

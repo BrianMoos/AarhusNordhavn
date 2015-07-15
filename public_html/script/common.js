@@ -39,6 +39,16 @@ function email(name){
         strEmail += String.fromCharCode(element);
     });
     
-    document.write('<a class="maillink" href="mailto:' + strEmail + '">' + strEmail + '</a>');
+    return '<a class="maillink" href="mailto:' + strEmail + '">' + strEmail + '</a>';
 }
+
+        (function($){
+            $(document).ready(function(){
+                $(".mail-michael").html(email("Michael"));
+                $(".mail-uller").html(email("Uller"));
+                $(".mail-erik").html(email("Erik"));
+                $(".mail-klaus").html(email("Klaus"));
+                $(".mail-kim").html(email("Kim"));
+            });
+        }(jQuery));
 
