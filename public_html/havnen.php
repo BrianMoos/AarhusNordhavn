@@ -40,4 +40,5 @@
         </div>
         </section>
 <?php
+    $doc->prtCommonScripts();
     print($doc->getFoot());

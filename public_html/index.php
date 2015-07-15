@@ -50,4 +50,5 @@
             <noscript>Email adressen kr&aelig;ver javascript</noscript><br />
         </article>
 <?php
+    $doc->prtCommonScripts();
     print($doc->getFoot());

@@ -79,4 +79,5 @@
             </article>
         </section>
 <?php
+    $doc->prtCommonScripts();
     print($doc->getFoot());
