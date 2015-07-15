@@ -19,7 +19,7 @@
             }(jQuery));
         /*]]>*/
         </script>   
-        <img src="images/sejlklubben_top.png" alt="" class="center-block" />
+        <img src="images/sejlklubben_top.png" alt="" class="center-block img-responsive" />
         <header>
                 <h1>Sejlklubben Aarhus Nordhavn</h1>
         </header>

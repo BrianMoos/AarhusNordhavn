@@ -36,7 +36,7 @@
     
     function showImg(data ,img){
         var baseURL = "./galleri/";
-        $("#image").html('<img src="' + baseURL + img + '" alt="" class="large_img" />');
+        $("#image").html('<img src="' + baseURL + img + '" alt="" class="large_img img-responsive" />');
         addImgHandler(data);
     }
     

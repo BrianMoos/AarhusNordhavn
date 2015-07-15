@@ -19,7 +19,7 @@
             }(jQuery));
         /*]]>*/
         </script> 
-        <img src="images/havnen_top.png" alt="" class="center-block" />
+        <img src="images/havnen_top.png" alt="" class="center-block img-responsive" />
         <header>
                 <h1>Havnen</h1>
         </header>

@@ -20,7 +20,7 @@
         /*]]>*/
         </script> 
 
-        <img src="images/gaestesejlere_top.png" alt="" class="center-block" />
+        <img src="images/gaestesejlere_top.png" alt="" class="center-block img-responsive" />
         <header>
                 <h1>G&aelig;stesejlere</h1>
         </header>

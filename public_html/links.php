@@ -19,7 +19,7 @@
             }(jQuery));
         /*]]>*/
         </script> 
-    <img src="images/links_top.png" alt="" class="center-block" />
+    <img src="images/links_top.png" alt="" class="center-block img-responsive" />
     <h1>Links</h1>
     <div class="row">
         <div class="col-md-6">
