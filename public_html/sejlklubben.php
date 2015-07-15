@@ -109,5 +109,4 @@
             </div>
         </div>
 <?php
-    $doc->prtCommonScripts();
     print($doc->getFoot());

@@ -4,6 +4,7 @@
 	$doc = new Page("Fotogalleri");
 		
 	print($doc->getTop());
+        $doc->prtScript($doc::GALLERIJS);
 	print($doc->getNeck());
 	Require_once $doc::MENU; 
 		
@@ -30,6 +31,4 @@
 
 
 <?php
-    $doc->prtCommonScripts();
-    $doc->prtScript($doc::GALLERIJS);
     print($doc->getFoot());
