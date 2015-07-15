@@ -9,16 +9,7 @@
 	require_once $doc::MENU;
 	
 
-?>
-        <script>
-        /*<![CDATA[*/
-            (function($){
-                $(document).ready(function(){
-                   $("#sejlklubben").addClass("active"); 
-                });
-            }(jQuery));
-        /*]]>*/
-        </script>   
+?> 
         <img src="images/sejlklubben_top.png" alt="" class="center-block img-responsive" />
         <header>
                 <h1>Sejlklubben Aarhus Nordhavn</h1>
@@ -108,6 +99,15 @@
                 </section>
             </div>
         </div>
+<?php  $doc->prtCommonScripts(); ?>
+        <script>
+        /*<![CDATA[*/
+            (function($){
+                $(document).ready(function(){
+                   $("#sejlklubben").addClass("active"); 
+                });
+            }(jQuery));
+        /*]]>*/
+        </script>  
 <?php
-    $doc->prtCommonScripts();
     print($doc->getFoot());
