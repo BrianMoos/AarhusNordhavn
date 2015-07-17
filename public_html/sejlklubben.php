@@ -43,6 +43,12 @@
                             Kim Christensen <span class="mail-kim"></span>
                         </li>                                        
                     </ul>
+                    <h2>Hjemmesiden</h2>
+                    <ul class="genericlist">
+                        <li>Hjemmesiden er på Github</li>
+                        <li><a href="https://github.com/saadanerdetbare/AarhusNordhavn" target="_blank"><img src="./images/GitHub-Mark-32px.png" /> https://github.com/saadanerdetbare/AarhusNordhavn</a></li>
+                        <li>Alle forslag, bugs, issues og tilføjelser modtages her. Bidrag og pullrequests er velkomne</li>
+                    </ul>
                     <noscript>Email adressen kr&aelig;ver javascript</noscript><br />
                 </section>
             </div>
