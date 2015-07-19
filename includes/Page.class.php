@@ -6,6 +6,7 @@ class Page extends Html5 {
 	const COMMONJS = "./script/common.js";
 	const GALLERIJS = "./script/galleri.js";
         const JQUERY = "./script/jquery-2.1.4.min.js";
+        const ANGULAR = "./script/angular.min.js";
 	const COMMONCSS = "./style/common.css";
         const BOOTSTRAPCSS = "./bootstrap/css/bootstrap.min.css";
         const BOOTSTRAPJS = "./bootstrap/js/bootstrap.min.js";
@@ -20,9 +21,6 @@ class Page extends Html5 {
 		$this->top = parent::getTop();
                 $this->top .= parent::getLink($this::BOOTSTRAPCSS);
                 $this->top .= parent::getLink($this::COMMONCSS);
-                //$this->top .= parent::getScript($this::JQUERY);
-                //$this->top .= parent::getScript($this::BOOTSTRAPJS);
-                //$this->top .= parent::getScript($this::COMMONJS);
                 $this->top .= "         <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"./favicon.ico\"/>".PHP_EOL;
                 
 		return $this->top;
