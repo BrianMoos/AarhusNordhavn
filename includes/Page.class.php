@@ -10,7 +10,6 @@ class Page extends Html5 {
 	const COMMONCSS = "./style/common.css";
         const BOOTSTRAPCSS = "./bootstrap/css/bootstrap.min.css";
         const BOOTSTRAPJS = "./bootstrap/js/bootstrap.min.js";
-        const FORMSCSS = "./style/forms.css";
         const MENU = "menu.php";
 
 	public function __construct($title, $lang = 'da') {
