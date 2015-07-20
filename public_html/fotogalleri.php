@@ -21,7 +21,6 @@
 <noscript>Fotogalleriet kr&aelig;ver javascript</noscript>
 <?php
     $doc->prtCommonScripts();
-    $doc->prtScript($doc::ANGULAR);
     $doc->prtScript($doc::GALLERIJS);
     ?>
         <script>
