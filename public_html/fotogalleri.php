@@ -19,19 +19,7 @@
 
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Im the awesome cat!</h4>
-                </div>
-                <div class="modal-body">
-                  <img class="img-responsive" src="http://lorempixel.com/600/400/cats/?42" alt="The awesome description">
-                </div>
-              </div>
-            </div>
-          </div>
+          <div id="modal"></div>
         </div>
     </section>
 <noscript>Fotogalleriet kr&aelig;ver javascript</noscript>
