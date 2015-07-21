@@ -30,54 +30,21 @@ section {
 	padding: 0 10px;
 }
 
-
-nav a {
-	font-weight: 600;
-	font-size: 11px;
-	color: #696d6e;
-}
-
-nav a:active {
-	color: #0bb9ff;
-}
-
-
-nav img {
-	border: 0;
-}
-
-nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-nav ul li {
-	margin: 0px 5px;
-	display: inline;
-}
-
-
 .genericlist {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.maillink {
-	color: #900000;
-}
-
-.large_img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #navbar-image {
     padding: 0px;
     margin: 0px;
     max-width: 150px;
+    border: 0;
+}
+
+#galleri {
+    max-width: 900px;
 }
 
 .portfolio .thumbnail {
