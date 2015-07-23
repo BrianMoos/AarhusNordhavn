@@ -44,7 +44,7 @@ function email(name){
     return '<a class="maillink" href="mailto:' + strEmail + '">' + strEmail + '</a>';
 }
 
-        (function($){
+        (function($, jQuery){
             $(document).ready(function(){
                 $(".mail-michael").html(email("Michael"));
                 $(".mail-uller").html(email("Uller"));
@@ -52,5 +52,5 @@ function email(name){
                 $(".mail-klaus").html(email("Klaus"));
                 $(".mail-kim").html(email("Kim"));
             });
-        }(jQuery));
+        }($, jQuery));
 

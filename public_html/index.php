@@ -39,16 +39,15 @@
                 bredde 5 - 6 m. samt sm&aring; sejlb&aring;de med bredde under 3 m. Bassindybde: Over 4 m.
             </p>
 
-            <noscript>Email adressen kr&aelig;ver javascript</noscript><br />
         </article>
     <?php $doc->prtCommonScripts();?>
         <script>
         /*<![CDATA[*/
-            (function($){
+            (function($, jQuery){
                 $(document).ready(function(){
                    $("#index").addClass("active"); 
                 });
-            }(jQuery));
+            }($, jQuery));
         /*]]>*/
         </script>     
 <?php
