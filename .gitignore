@@ -3,3 +3,5 @@ web.config
 phpdebug.php
 nbproject/
 public_html/nbproject/
+*.phpproj
+.vs/
