@@ -1,4 +1,6 @@
-(function($, jQuery){
+/// <reference path="jquery-2.1.4.min.js" />
+
+(function ($, jQuery) {
     "use strict";
     $(document).ready(function(){
         $.getJSON("./galleri/galleri.json").done(function(data){

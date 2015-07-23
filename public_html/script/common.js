@@ -1,3 +1,5 @@
+/// <reference path="jquery-2.1.4.min.js" />
+
 function existx(x) { return x !== null && typeof x !== "undefined"; }
 
 function lessOrEqual(x, y) {
