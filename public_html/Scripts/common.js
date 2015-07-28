@@ -1,4 +1,4 @@
-/// <reference path="jquery-2.1.4.min.js" />
+///<reference path="jquery-2.1.4.js" />
 
 function existx(x) { return x !== null && typeof x !== "undefined"; }
 

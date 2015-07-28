@@ -3,9 +3,9 @@
 require_once 'Html5.class.php';
 class Page extends Html5 {
 	
-	const COMMONJS = "./script/common.js";
-	const GALLERIJS = "./script/galleri.js";
-        const JQUERY = "./script/jquery-2.1.4.min.js";
+	const COMMONJS = "./Scripts/common.js";
+	const GALLERIJS = "./Scripts/galleri.js";
+    const JQUERY = "./Scripts/jquery-2.1.4.min.js";
 	const COMMONCSS = "./style/common.css";
         const BOOTSTRAPCSS = "./bootstrap/css/bootstrap.min.css";
         const BOOTSTRAPJS = "./bootstrap/js/bootstrap.min.js";
