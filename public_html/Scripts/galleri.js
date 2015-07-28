@@ -1,4 +1,5 @@
-/// <reference path="jquery-2.1.4.min.js" />
+/// <reference path="jquery-2.1.4.js" />
+/// <reference path="common.js" />
 
 (function ($, jQuery) {
     "use strict";
