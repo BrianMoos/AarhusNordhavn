@@ -31,7 +31,7 @@
         html = html.concat('<div class="modal-content">');
         html = html.concat('<div class="modal-header">');
         html = html.concat('<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>');
-        html = html.concat('<h4 class="modal-title" id="ModalLabel', image.id, '">Billeder fra Aarhus Nordhavn</h4>');
+        html = html.concat('<h4 class="modal-title" id="ModalLabel', image.id, '">', image.header, '</h4>');
         html = html.concat('</div>');
         html = html.concat('<div class="modal-body">');
         html = html.concat('<img class="img-responsive" src="', baseURL, image.name, '" alt="">');
