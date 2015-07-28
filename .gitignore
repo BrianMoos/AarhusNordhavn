@@ -6,4 +6,5 @@ public_html/nbproject/
 *.phpproj
 .vs/
 *.sln
+*.ini
 _references.js
