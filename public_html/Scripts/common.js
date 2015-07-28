@@ -36,12 +36,12 @@ function email(name){
             break;
     }
 
-    mail = mail.map(function (element) {
-        return String.fromCharCode(element);
-    });
+    mail = mail
+        .map(function (element) {
+            return String.fromCharCode(element);
+        })
+        .join("");
 
-    mail = mail.join("");
-    
     return '<a class="maillink" href="mailto:' + mail + '">' + mail + '</a>';
 }
 

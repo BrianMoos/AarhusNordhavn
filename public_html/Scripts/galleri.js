@@ -4,7 +4,7 @@
 (function ($, jQuery) {
     "use strict";
     $(document).ready(function(){
-        $.getJSON("./galleri/galleri.json").done(function(data){
+        jQuery.getJSON("./galleri/galleri.json").done(function(data){
             data.forEach(function (image) {
                $("#galleri").append(listGalleri(image)); 
                $("#modal").append(createModal(image));
