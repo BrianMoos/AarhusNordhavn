@@ -8,7 +8,6 @@ function lessOrEqual(x, y) {
 
 function email(name){
     var mail = [];
-    var strEmail = "";
     var mailKim = [107,105,109,50,53,54,54,49,52,50,53,64,104,111,116,109,97,105,108,46,99,111,109];
     var mailMichael = [109,105,99,104,97,101,108,46,103,114,111,110,110,101,64,103,109,97,105,108,46,99,111,109];
     var mailUller = [98,114,105,97,110,117,108,108,101,114,64,104,111,116,109,97,105,108,46,99,111,109];
@@ -36,12 +35,14 @@ function email(name){
             mail = mailKlaus;
             break;
     }
-    
-    mail.forEach(function(element){
-        strEmail += String.fromCharCode(element);
+
+    mail = mail.map(function (element) {
+        return String.fromCharCode(element);
     });
+
+    mail = mail.join("");
     
-    return '<a class="maillink" href="mailto:' + strEmail + '">' + strEmail + '</a>';
+    return '<a class="maillink" href="mailto:' + mail + '">' + mail + '</a>';
 }
 
         (function($, jQuery){
