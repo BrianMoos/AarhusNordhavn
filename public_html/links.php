@@ -21,7 +21,7 @@
                         Aarhus Lystb&aring;dehavn: <a  title="http://www.aarhuslystbaadehavn.dk/" href="http://www.aarhuslystbaadehavn.dk/" >www.aarhuslystbaadehavn.dk</a>
                     </li>
                     <li>
-                        &Aring;rhus Sejlklub: <a  title="http://www.aarhussejlklub.dk/" href="htt>p://www.aarhussejlklub.dk/" >www.aarhussejlklub.dk</a>
+                        &Aring;rhus Sejlklub: <a  title="http://www.aarhussejlklub.dk/" href="http://www.aarhussejlklub.dk/" >www.aarhussejlklub.dk</a>
                     </li>
                     <li>
                         Sejlklubben Bugten: <a  title="http://www.bugten.dk/" href="http://www.bugten.dk/" >www.bugten.dk</a>
